@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/component/homeInfo/HomeInfo.module.css"],"names":[],"mappings":"AAAA,uBACI,cAAe,CACf,iBACJ,CAEA,sBACI,iBACJ","file":"4.e8eff880.chunk.css","sourcesContent":[".title {\n    font-size: 40px;\n    text-align: center;\n}\n\n.text {\n    text-align: center;\n}\n"]}
