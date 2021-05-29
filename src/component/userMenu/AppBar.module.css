@@ -1,0 +1,7 @@
+.page__header {
+    display: flex;
+    justify-content: center;
+}
+.header__container {
+    display: flex;
+}

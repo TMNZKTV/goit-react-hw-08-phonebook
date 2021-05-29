@@ -1,0 +1,22 @@
+.user__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.user__name {
+    color: black;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.logout__button {
+    border: none;
+    outline: 1px solid transparent;
+    border-radius: 6px;
+    width: 65px;
+    height: 25px;
+}

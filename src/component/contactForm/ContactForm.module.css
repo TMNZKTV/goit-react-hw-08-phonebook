@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    margin-right: 20px;
+}
+.label__text {
+    margin-right: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.form__button {
+    border: none;
+    outline: 1px solid transparent;
+    border-radius: 6px;
+    height: 40px;
+}
