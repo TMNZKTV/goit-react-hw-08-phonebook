@@ -1,5 +1,5 @@
 import React, { Suspense, Component, lazy } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
 // Components
 import AppBar from './component/userMenu/AppBar';
