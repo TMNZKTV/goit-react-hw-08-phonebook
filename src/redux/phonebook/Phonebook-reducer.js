@@ -43,9 +43,9 @@ const error = createReducer(null, {
     [addContactError]: setError,
     [deleteContactError]: setError,
     [fetchContactsError]: setError,
-    [addContactSuccess]: cleanError,
-    [deleteContactSuccess]: cleanError,
-    [fetchContactsSuccess]: cleanError,
+    [addContactRequest]: cleanError,
+    [deleteContactRequest]: cleanError,
+    [fetchContactsRequest]: cleanError,
 });
 
 export default combineReducers({

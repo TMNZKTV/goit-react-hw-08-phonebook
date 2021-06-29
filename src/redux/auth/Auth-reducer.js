@@ -28,10 +28,10 @@ const error = createReducer(null, {
     [authActions.loginError]: setError,
     [authActions.logoutError]: setError,
     [authActions.getCurrentUserError]: setError,
-    [authActions.registerSuccess]: cleanError,
-    [authActions.loginSuccess]: cleanError,
-    [authActions.logoutError]: cleanError,
-    [authActions.registerSuccess]: cleanError,
+    [authActions.registerRequest]: cleanError,
+    [authActions.loginRequest]: cleanError,
+    [authActions.logoutRequest]: cleanError,
+    [authActions.getCurrentUserRequest]: cleanError,
 });
 
 const isAuthenticated = createReducer(false, {
